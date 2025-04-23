@@ -11,15 +11,13 @@
 
 1. Клонируйте репозиторий:
 
-    git clone https://github.com/your-repository/xlsx-api.git
-    cd xlsx-api
+    git clone https://github.com/gerasimovMP/xlsx.git
 
 2. Соберите и запустите проект:
 
-    ```bash
     ./gradlew bootRun
-    ```
 
 ## Использование
 
 - Эндпоинт: `GET /findMin?filePath=<путь_к_файлу>&n=<N>`
+- swagger http://localhost:8080/swagger-ui/index.html#/xlsx-controller/findMin
